@@ -41,9 +41,6 @@ pip install -r requirements.txt
 # Запуск всех тестов
 pytest tests/
 
-# Запуск тестов с покрытием
-pytest --cov=src tests/
-
 # Запуск тестов use case
 pytest tests/application/
 
